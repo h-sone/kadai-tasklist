@@ -26,7 +26,7 @@ public class TaskValidator {
     // 内容の必須入力チェック
     private static String validateContent(String content) {
         if(content == null || content.equals("")) {
-            return "を入力してください。";
+            return "内容を入力してください。";
         }
 
         return "";
